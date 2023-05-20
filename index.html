@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <ul>
+            <li class="logo-item"><a class="logo-link" href="#">Library System</a></li>
+            <li><a href="#books-section">Books</a></li>
+            <li><a href="#register-section">Register</a></li>
+            <li><a href="#ContactUs">Contact Us</a></li>
+            <li><a href="#LogOut">Logout</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="books-section">
+          <h2>Books</h2>
+          <!-- Books content goes here -->
+          <table>
+            <thead>
+              <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>
+                  <table class="nested-table">
+                    <p class="tittle">Book Tittle 1</p>
+                    <tr>
+                      <th>Publication Date</th>
+                      <th>Page Count</th>
+                      <th>ISBN</th>
+                    </tr>
+                    <tr>
+                      <td>2021-05-15</td>
+                      <td>320</td>
+                      <td>978-1234567890</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>Jane Smith</td>
+                <td>Mystery</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>
+                  <table class="nested-table">
+                    <p class="tittle">Book Tittle 2</p>
+                    <tr>
+                      <th>Publication Date</th>
+                      <th>Page Count</th>
+                      <th>ISBN</th>
+                    </tr>
+                    <tr>
+                      <td>2020-11-01</td>
+                      <td>256</td>
+                      <td>978-0987654321</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>John Doe</td>
+                <td>Fantasy</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>
+                  <table class="nested-table">
+                    <p class="tittle">Book Tittle 3</p>
+                    <tr>
+                      <th>Publication Date</th>
+                      <th>Page Count</th>
+                      <th>ISBN</th>
+                    </tr>
+                    <tr>
+                      <td>2019-07-20</td>
+                      <td>432</td>
+                      <td>978-9876543210</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>Lisa Johnson</td>
+                <td>Romance</td>
+                <td>Unavailable</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>
+                  <table class="nested-table">
+                    <p class="tittle">Book Tittle 4</p>
+                    <tr>
+                      <th>Publication Date</th>
+                      <th>Page Count</th>
+                      <th>ISBN</th>
+                    </tr>
+                    <tr>
+                      <td>2022-03-10</td>
+                      <td>192</td>
+                      <td>978-5432109876</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>Michael Brown</td>
+                <td>Thriller</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>
+                  <table class="nested-table">
+                    <p class="tittle">Book Tittle 5</p>
+                    <tr>
+                      <th>Publication Date</th>
+                      <th>Page Count</th>
+                      <th>ISBN</th>
+                    </tr>
+                    <tr>
+                      <td>2018-09-05</td>
+                      <td>400</td>
+                      <td>978-2468135790</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>Sarah Adams</td>
+                <td>Drama</td>
+                <td>Available</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </section>
+    
+        <section id="register-section">
+          <h2>Register</h2>
+          <!-- Register form goes here -->
+          <form>
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="date-of-birth">Date of Birth</label>
+              <input type="date" id="date-of-birth" name="date-of-birth" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="5" max="100" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            
+            <button type="submit">Register</button>
+          </form>
+          
+        </section>
+      </main>
+   
+</body>
+</html>
