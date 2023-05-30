@@ -35,7 +35,7 @@
  
  
   section {
-    height: 800px;
+    /* height: 800px; */
     padding: 50px;
   }
   
@@ -68,9 +68,10 @@
     width: 100%;
   }
   
+  
   table th, table td {
     padding: 8px;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
   }
   
   table th {
@@ -82,6 +83,7 @@
     border: none;
     background-color: transparent;
   }
+ 
   
   .nested-table th, .nested-table td {
     padding: 4px;
@@ -163,4 +165,13 @@
  .head{
   /* color: red; */
   text-align: center;
+ }
+
+ .colData{
+  text-align: justify;
+ }
+
+ .first{
+  display: flex;
+  flex-direction: column;
  }
